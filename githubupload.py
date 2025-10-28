@@ -313,7 +313,7 @@ def main():
     print("="*60)
     
     # Get credentials
-    username = input("Enter your GitHub username: ")
+    username = input("Enter your GitHub username: ") #Change this and the token if you do not want to key in everytime
     token = input("Enter your GitHub token: ")
     
     if not username or not token:
@@ -443,4 +443,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
